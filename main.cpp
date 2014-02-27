@@ -24,11 +24,11 @@ int main()
         cout << "Enter a word to conjugate: ";
         getline(cin, word);
 
-		/*
-		Takes the variable 'word' from the 'getline()' function and breaks it into two parts:
-		1. The word root stored by 'wordRoot;
-		2. The word suffix stored by 'wordSuffix'
-		*/
+	/*
+	Takes the variable 'word' from the 'getline()' function and breaks it into two parts:
+	1. The word root stored by 'wordRoot;
+	2. The word suffix stored by 'wordSuffix'
+	*/
 		
         wordRoot = word.substr(0, word.length() - 2);
         wordSuffix = word.substr(word.length() - 2);
