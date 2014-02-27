@@ -8,7 +8,9 @@ int main()
     {
     
     	/*
-    	First 6 strings and string[] are initiated, and the string[] are given values. The string[] stores the French pronouns and word endings used in conjugating (First person singular, First person plural, etc.)
+    	First 6 strings and string[] are initiated, and the string[] are given values. 
+    	The string[] stores the French pronouns and word endings used in conjugating 
+    	(First person singular, First person plural, etc.)
     	*/
     
         string word;
@@ -23,7 +25,9 @@ int main()
         getline(cin, word);
 
 		/*
-		Takes the variable 'word' from the 'getline()' function and breaks it into two parts - the word root, stored by the variable 'wordRoot', and it's suffix, held by 'wordSuffix'
+		Takes the variable 'word' from the 'getline()' function and breaks it into two parts:
+		1. The word root stored by 'wordRoot;
+		2. The word suffix stored by 'wordSuffix'
 		*/
 		
         wordRoot = word.substr(0, word.length() - 2);
