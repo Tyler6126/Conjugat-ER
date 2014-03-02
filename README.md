@@ -5,11 +5,21 @@ NOTICE! Windows Firewall may end up blocking you from running the file! Please n
 
 How To Use
 ==========
-1. Extract the "Conjugat-ER.exe" from the download
-2. Run "Conjugat-ER.exe"
-   a. If a firewall blocks it, select 'Run Anyway' since it is safe
-3. Enter a French 'ER' or 'RE' verb ('IR' support coming soon)
-4. Press enter
+v1.1.0 and lower:
+   1. Extract the "Conjugat-ER.exe" from the download
+   2. Run "Conjugat-ER.exe"
+      a. If a firewall blocks it, select 'Run Anyway' since it is safe
+   3. Enter a French 'ER' or 'RE' verb ('IR' support in v1.1.0 and higher)
+   4. Press enter
+   
+v1.1.1 and higher:
+   1. Extract the "Libraries" and "Conjugat-ER" files from the download
+   2. Move the "Libraries" folder to your choosing, but DO NOT DELETE THESE!
+   3. Move the "Conjugat-ER" shortcut to your choosing, as it will run the "Libraries" folder
+   4. Run "Conjugat-ER"
+      a. If a firewall blocks it, select 'Run Anyway' since it is safe
+   5. Enter a French 'ER', 'IR', or 'RE' verb
+   6. Press enter
 
 Download
 ========
@@ -17,4 +27,4 @@ https://github.com/Tyler6126/Conjugat-ER/releases
 
 Updates
 =======
-Working on a basic GUI instead of a command prompt! This will make it look much better, and hopefully allow for more languages! The release will hopefully be out within a month!
+Since the program has switched to Python instead of C++, this will allow for faster developement. The next update includes support for some irregular verbs, "avoir" and "etre"
